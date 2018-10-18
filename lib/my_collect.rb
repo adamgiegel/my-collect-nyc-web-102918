@@ -1,3 +1,5 @@
 def my_collect(array)
-  do |i|
+  newArr = []
+  while array.length > 0 
+    yield |i|
 
